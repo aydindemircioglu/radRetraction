@@ -1,4 +1,6 @@
-* Retractions of publications in radiomics: an underestimated problem?
+# Retractions of publications in radiomics: an underestimated problem?
+
+This repository contains the code and the data for the manuscript 'Retractions of publications in radiomics: an underestimated problem?'.
 
 ## Data Processing
 
