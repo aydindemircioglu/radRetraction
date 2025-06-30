@@ -1,0 +1,91 @@
+,Authors,Title,Journal,Publisher,Country,DOI,Reason,Date
+0,Yang et al.,Prediction of Changes in Tumor Regression during Radiotherapy for Nasopharyngeal Carcinoma by Using the Computed Tomography-Based Radiomics (Retracted Article),CONTRAST MEDIA & MOLECULAR IMAGING,WILEY-HINDAWI,,10.1155/2022/3417480,,2025
+1,Wang et al.,Feasibility of Constructing an Automatic Meniscus Injury Detection Model Based on Dual-Mode Magnetic Resonance Imaging (MRI) Radiomics of the Knee Joint (Retracted Article),COMPUTATIONAL AND MATHEMATICAL METHODS IN MEDICINE,HINDAWI LTD,,10.1155/2022/2155132,,2025
+2,Xu et al.,Severity Assessment of COVID-19 Using a CT-Based Radiomics Model (Retracted Article),STEM CELLS INTERNATIONAL,WILEY,,10.1155/2021/2263469,,2025
+3,Pareek et al.,Predicting the Spread of Vessels in Initial Stage Cervical Cancer through Radiomics Strategy Based on Deep Learning Approach (Retracted Article),ADVANCES IN MATERIALS SCIENCE AND ENGINEERING,HINDAWI LTD,,10.1155/2022/1008652,,2025
+4,Chen et al.,Value of CT Radiomics and Clinical Features in Predicting Bone Metastases in Patients with NSCLC (Retracted Article),CONTRAST MEDIA & MOLECULAR IMAGING,WILEY-HINDAWI,,10.1155/2022/7642511,,2025
+5,Khadidos et al.,Evaluation of the Risk of Recurrence in Patients with Local Advanced Rectal Tumours by Different Radiomic Analysis Approaches (Retracted Article),APPLIED BIONICS AND BIOMECHANICS,HINDAWI LTD,,10.1155/2021/4520450,,2025
+6,Duan et al.,Prediction of Hearing Prognosis of Large Vestibular Aqueduct Syndrome Based on the PyTorch Deep Learning Model (Retracted Article),JOURNAL OF HEALTHCARE ENGINEERING,HINDAWI LTD,,10.1155/2022/4814577,,2025
+7,Jing et al.,Multimodal MRI-Based Radiomic Nomogram for the Early Differentiation of Recurrence and Pseudoprogression of High-Grade Glioma (Retracted Article),BIOMED RESEARCH INTERNATIONAL,WILEY,,10.1155/2022/4667117,,2025
+8,He et al.,Recurrence of Early Hepatocellular Carcinoma after Surgery May Be Related to Intestinal Oxidative Stress and the Development of a Predictive Model (Retracted Article),OXIDATIVE MEDICINE AND CELLULAR LONGEVITY,WILEY,,10.1155/2022/7261786,,2025
+9,Wang et al.,Ultrasonic Imaging of Cardiovascular Disease Based on Image Processor Analysis of Hard Plaque Characteristics,BioMed Research International,,,10.1155/2022/4304524,,2022
+10,Jiang et al.,Predicting Risk of Insulin Resistance in a Chinese Population with Polycystic Ovary Syndrome: Designing and Testing a New Predictive Nomogram,BioMed Research International,,,10.1155/2020/8031497,,2020
+11,Sun et al.,A study of different minimum segment area parameters on automatic IMRT plans for cervical cancer using Pinnacle39.10 TPS,Medicine (United States),,,10.1097/MD.0000000000029290,,2022
+12,Sankar et al.,Regression Neural Network segmentation approach with LIDC-IDRI for lung lesion,Journal of Ambient Intelligence and Humanized Computing,,,10.1007/s12652-020-02069-w,,2021
+13,Chen et al.,Notice of Retraction: Coronary artery lumen segmentation in CCTA using 3D CNN with partial annotations,Proceedings - International Symposium on Biomedical Imaging,,,10.1109/ISBI48211.2021.9434025,,2021
+14,Guo et al.,Deep Learning-Based Computed Tomography Imaging to Diagnose the Lung Nodule and Treatment Effect of Radiofrequency Ablation,Journal of Healthcare Engineering,,,10.1155/2021/6556266,,2021
+15,Long et al.,Comparison of preoperative ultrasound and MRI in the diagnosis of microvascular invasion in hepatocellular carcinoma,Functional and Integrative Genomics,,,10.1007/s10142-023-01006-2,,2023
+16,da et al.,Lung nodule malignancy classification in chest computed tomography images using transfer learning and convolutional neural networks,Neural Computing and Applications,,,10.1007/s00521-018-3895-1,,2020
+17,Sheng et al.,Application of MRI Image Based on Computer Semiautomatic Segmentation Algorithm in the Classification Prediction of Breast Cancer Histology,Journal of Healthcare Engineering,,,10.1155/2021/6088322,,2021
+18,Allapakam et al.,A hybrid feature pyramid network and Efficient Net-B0-based GIST detection and segmentation from fused CT-PET image,Soft Computing,,,10.1007/s00500-023-08614-x,,2023
+19,Yin et al.,U-Net-Based Medical Image Segmentation,Journal of Healthcare Engineering,,,10.1155/2022/4189781,,2022
+20,Yue et al.,The role of PKP1 in tumor progression in melanoma: Analysis of a cell adhesion-related model,Environmental Toxicology,,,10.1002/tox.24017,,2024
+21,Gao et al.,"Depletion of Fibroblast Growth Factor 12 Restrains the Viability, Stemness, and Motility of Colorectal Cancer",BioMed Research International,,,10.1155/2022/9948461,,2022
+22,Wu et al.,Molecular Mechanism of Secondary Endocrine Resistance in Luminal Breast Cancer,BioMed Research International,,,10.1155/2021/6618519,,2021
+23,Wang et al.,Study on Automatic Multi-Classification of Spine Based on Deep Learning and Postoperative Infection Screening,Journal of Healthcare Engineering,,,10.1155/2022/2779686,,2022
+24,Liu et al.,Deep Learning Technology in Pathological Image Analysis of Breast Tissue,Journal of Healthcare Engineering,,,10.1155/2021/9610830,,2021
+25,Yuan et al.,"Correlation between er, pr, p53, ki67 expression, and high-risk hpv infection in patients with different levels of cervical intraepithelial neoplasia",European Journal of Inflammation,,,10.1177/2058739220933084,,2020
+26,Huynh et al.,New Artificial Intelligence ChatGPT Performs Poorly on the 2022 Self-assessment Study Program for Urology,Urology Practice,,,10.1097/UPJ.0000000000000406,,2023
+27,Chopra et al.,Cyclic GAN Model to Classify Breast Cancer Data for Pathological Healthcare Task,BioMed Research International,,,10.1155/2022/6336700,,2022
+28,Mann et al.,Multiresolution-Based Singular Value Decomposition Approach for Breast Cancer Image Classification,BioMed Research International,,,10.1155/2022/6392206,,2022
+29,Li et al.,Research on Modern Book Packaging Design under Aesthetic Evaluation Based on Deep Learning Model,Discrete Dynamics in Nature and Society,,,10.1155/2021/8214200,,2021
+30,Anand et al.,Diagnosis of Prostate Cancer Using GLCM Enabled KNN Technique by Analyzing MRI Images,BioMed Research International,,,10.1155/2023/3913351,,2023
+31,Sujitha et al.,Classification of lung cancer stages with machine learning over big data healthcare framework,Journal of Ambient Intelligence and Humanized Computing,,,10.1007/s12652-020-02071-2,,2021
+32,Yang et al.,Analysis of the Diagnostic Effect of EUS-RTE on Giant Cystic Tumours of the Oesophagus Based on Cluster Analysis,Journal of Healthcare Engineering,,,10.1155/2021/1395826,,2021
+33,Supriya et al.,Mamographic image for breast cancer detection and identification of stages of cancer using MFFC and optimized ANFIS,Journal of Ambient Intelligence and Humanized Computing,,,10.1007/s12652-020-02639-y,,2021
+34,Sun et al.,Contrast Agent and Molecular Imaging Meta-Analysis of the Clinical Effect of Intelligent Image Sensor Combined with Visual Training in the Treatment of Children with Intermittent Exotropia in China,Journal of Healthcare Engineering,,,10.1155/2022/5387928,,2022
+35,Abdulwahab et al.,Feature selection techniques in the context of big data: taxonomy and analysis,Applied Intelligence,,,10.1007/s10489-021-03118-3,,2022
+36,Mao et al.,Construction and validation of a machine learning-based immune-related prognostic model for glioma,Journal of Cancer Research and Clinical Oncology,,,10.1007/s00432-024-05970-5,,2024
+37,Manimegalai et al.,3D Convolutional Neural Network Framework with Deep Learning for Nuclear Medicine,Scanning,,,10.1155/2022/9640177,,2022
+38,Arunkumar et al.,Optimized wavelet and feature set of EEG signal for Parkinson disease classification,Journal of Intelligent and Fuzzy Systems,,,10.3233/JIFS-236145,,2024
+39,Yang et al.,Microscopic Tumour Classification by Digital Mammography,Journal of Healthcare Engineering,,,10.1155/2021/6635947,,2021
+40,Wang et al.,Ultrasound Parameters of Thyroid Nodules and the Risk of Malignancy: A Retrospective Analysis,Cancer Control,,,10.1177/1073274820945976,,2020
+41,Prusty et al.,Prediction of Breast cancer using integrated machine learning-fuzzy and dimension reduction techniques,Journal of Intelligent and Fuzzy Systems,,,10.3233/JIFS-223265,,2023
+42,Wanjari et al.,Artificial intelligence in the surgical management of arteriovenous malformations,Neurosurgical Review,,,10.1007/s10143-024-02886-z,,2024
+43,ZHUO et al.,"Downregulated microRNA-140-5p expression regulates apoptosis, migration and invasion of lung cancer cells by targeting zinc finger protein 800",Oncology Letters,,,10.3892/ol.2020.12253,,2020
+44,Dong et al.,Segmentation Algorithm of Magnetic Resonance Imaging Glioma under Fully Convolutional Densely Connected Convolutional Networks,Stem Cells International,,,10.1155/2022/8619690,,2022
+45,Zhang et al.,Extraction and Visualization of Ocular Blood Vessels in 3D Medical Images Based on Geometric Transformation Algorithm,Journal of Healthcare Engineering,,,10.1155/2021/5573381,,2021
+46,Liu et al.,Image Genetic Analysis and Application Research Based on QRFPR and Other Neural Network-Related SNP Loci,BioMed Research International,,,10.1155/2022/5861928,,2022
+47,Han et al.,A meta-analysis of the effect of laparoscopic gastric resection on the surgical site wound infection in patients with advanced gastric cancer,International Wound Journal,,,10.1111/iwj.14332,,2023
+48,He et al.,"The value, diagnostic efficacy and clinical significance of functional magnetic resonance imaging in evaluating the efficacy of neoadjuvant chemotherapy in patients with triple negative breast cancer",Frontiers in Oncology,,,10.3389/fonc.2023.1132186,,2023
+49,Parrilla-Almansa et al.,Intraosteal Behavior of Porous Scaffolds: The mCT Raw-Data Analysis as a Tool for Better Understanding,Symmetry,,,10.3390/sym11040532,,2019
+50,Thakur et al.,New insights into molecular signaling pathways and current advancements in prostate cancer diagnostics & therapeutics,Frontiers in Oncology,,,10.3389/fonc.2023.1193736,,2023
+51,Wang et al.,Preliminary Evaluation of Artificial Intelligence-Based Anti-Hepatocellular Carcinoma Molecular Target Study in Hepatocellular Carcinoma Diagnosis Research,BioMed Research International,,,10.1155/2022/8365565,,2022
+52,Saidulu et al.,An approach for disease prediction and classification using novel weighting method and multichannel shared functional behaviour,Soft Computing,,,10.1007/s00500-023-08282-x,,2023
+53,FANG et al.,lncRNA FGD5-AS1 promotes breast cancer progression by regulating the hsa-miR-195-5p/NUAK2 axis,Molecular Medicine Reports,,,10.3892/mmr.2021.12099,,2021
+54,Tan et al.,Evaluation of Angiogenesis and Pathological Classification of Extrahepatic Cholangiocarcinoma by Dynamic MR Imaging for E-Healthcare,Journal of Healthcare Engineering,,,10.1155/2021/8666498,,2021
+55,Wang et al.,"Cannabinoid WIN 55,212-2 Inhibits Human Glioma Cell Growth by Triggering ROS-Mediated Signal Pathways",BioMed Research International,,,10.1155/2021/6612592,,2021
+56,Xie et al.,Analysis of the Diagnosis Model of Peripheral Non-Small-Cell Lung Cancer under Computed Tomography Images,Journal of Healthcare Engineering,,,10.1155/2022/3107965,,2022
+57,Zhang et al.,Deep Learning-Based Cervical Spine Posterior Percutaneous Endoscopic Disc Nucleus Resection for the Treatment of Cervical Spondylotic Radiculopathy,Journal of Healthcare Engineering,,,10.1155/2021/7245566,,2021
+58,Liu et al.,Serum Level of CEACAM1 in Patients with Nonsmall Cell Lung Cancer and Its Clinical Significance in Cancer Tissue,Journal of Healthcare Engineering,,,10.1155/2022/7948010,,2022
+59,Zhang et al.,LncRNA LINC00337 sponges mir-1285-3p to promote proliferation and metastasis of lung adenocarcinoma cells by upregulating YTHDF1,Cancer Cell International,,,10.1186/s12935-021-02253-8,,2021
+60,Du et al.,The diagnostic nomogram of platelet-based score models for hepatic alveolar echinococcosis and atypical liver cancer,Scientific Reports,,,10.1038/s41598-019-55563-3,,2019
+61,Das et al.,Brain tumor segmentation and overall survival period prediction in glioblastoma multiforme using radiomic features,Concurrency and Computation: Practice and Experience,,,10.1002/cpe.6501,,2022
+62,Lv et al.,Application of the Preoperative Assistant System Based on Machine Learning in Hepatocellular Carcinoma Resection,Journal of Healthcare Engineering,,,10.1155/2021/4757668,,2021
+63,Zhou et al.,"Long non-coding RNA PSMA3-AS1 enhances cell proliferation, migration and invasion by regulating miR-302a-3p/RAB22A in glioma",Bioscience Reports,,,10.1042/BSR20191571,,2020
+64,Chaudhury et al.,A BERT encoding with Recurrent Neural Network and Long-Short Term Memory for breast cancer image classification,Decision Analytics Journal,,,10.1016/j.dajour.2023.100177,,2023
+65,Sheng et al.,Diagnostic Efficacy of CT Radiomic Features in Pulmonary Invasive Mucinous Adenocarcinoma,Scanning,,,10.1155/2022/5314225,,2022
+66,Nigudgi et al.,Lung cancer CT image classification using hybrid-SVM transfer learning approach,Soft Computing,,,10.1007/s00500-023-08498-x,,2023
+67,Singh et al.,Biomedical Images Analysis for Disease Diagnosis using Sensor based Machine Learning Model,MysuruCon 2022 - 2022 IEEE 2nd Mysore Sub Section International Conference,,,10.1109/MysuruCon55714.2022.9972711,,2022
+68,Li et al.,Analysis of SOCS3 gene genotype in patients with acute cerebral infarction and its relationship with disease progression,Clinical Neurology and Neurosurgery,,,10.1016/j.clineuro.2022.107518,,2023
+69,Bhende et al.,Deep Learning-Based Real-Time Discriminate Correlation Analysis for Breast Cancer Detection,BioMed Research International,,,10.1155/2022/4609625,,2022
+70,Zhang et al.,Dual-phenotype hepatocellular carcinoma: correlation of MRI features with other primary hepatocellular carcinoma and differential diagnosis,Frontiers in Oncology,,,10.3389/fonc.2023.1253873,,2023
+71,Liang et al.,Renal enhanced CT images reveal the tandem mechanism between tumor cells and immunocytes based on bulk/single-cell RNA sequencing,Functional and Integrative Genomics,,,10.1007/s10142-023-01011-5,,2023
+72,Zang et al.,Multi-Slice Spiral Computed Tomography Image Features under Hybrid Iterative Reconstruction Algorithm in Staging Diagnosis of Bladder Cancer,Journal of Healthcare Engineering,,,10.1155/2021/7733654,,2021
+73,Mukiri et al.,A Novel Vision Transformer Model for Rumor Prediction in COVID-19 Data CT Images,Journal of Intelligent and Fuzzy Systems,,,10.3233/JIFS-236842,,2024
+74,Wang et al.,DSA Image Analysis of Clinical Features and Nursing Care of Cerebral Aneurysm Patients Based on the Deep Learning Algorithm,Scanning,,,10.1155/2022/8485651,,2022
+75,Gupta et al.,The Emerging Role of Implementing Machine Learning in Food Recommendation for Chronic Kidney Diseases Using Correlation Analysis,Journal of Food Quality,,,10.1155/2022/7176261,,2022
+76,Zhang et al.,Regression Analysis of Factors Based on Cluster Analysis of Acute Radiation Pneumonia due to Radiation Therapy for Lung Cancer,Journal of Healthcare Engineering,,,10.1155/2021/3727794,,2021
+77,Ramzan et al.,A numerical study of chemical reaction in a nanofluid flow due to rotating disk in the presence of magnetic field,Scientific Reports,,,10.1038/s41598-021-98881-1,,2021
+78,Hussain et al.,Notice of Retraction: AI Techniques for COVID-19,IEEE Access,,,10.1109/ACCESS.2020.3007939,,2020
+79,Jia et al.,The Value of Color Doppler Ultrasound and CT Combined with Serum AFP Examination in the Diagnosis of Hepatocellular Carcinoma,Journal of Healthcare Engineering,,,10.1155/2022/4147753,,2022
+80,Abraham et al.,A hybrid stacking classifier with feature selection for handling imbalanced data,Journal of Intelligent and Fuzzy Systems,,,10.3233/JIFS-236197,,2024
+81,Quazi et al.,Artificial intelligence and machine learning in precision and genomic medicine,Medical Oncology,,,10.1007/s12032-022-01711-1,,2022
+82,Zhu et al.,Clinical Study on the Efficacy of Microwave Ablation (MA) in the Treatment of Stage I Renal Clear Cell Carcinoma by CT and MRI Imaging,Journal of Healthcare Engineering,,,10.1155/2022/8446294,,2022
+83,Chen et al.,PCBP2 Reduced Oxidative Stress-Induced Apoptosis in Glioma through cGAS/STING Pathway by METTL3-Mediated m6A Modification,Oxidative Medicine and Cellular Longevity,,,10.1155/2022/9049571,,2022
+84,Preethi et al.,Cascaded layer-coalescing convolution network for brain tumor segmentation,Journal of Intelligent and Fuzzy Systems,,,10.3233/JIFS-220167,,2022
+85,Chauhan et al.,Development of a classifier with analysis of feature selection methods for COVID-19 diagnosis,World Journal of Engineering,,,10.1108/WJE-10-2020-0537,,2022
+86,"Xiu D, Mo Y, Liu C, Hu Y, Wang Y, Zhao Y, Guo T, Cheng K, Huang C, Liu L, Cheng M.","Integrative Nomogram of Computed Tomography Radiomics, Clinical, and Tumor Immune Features for Analysis of Disease-Free Survival of NSCLC Patients with Surgery",J Oncol,,,10.1155/2023/8607062,,2023
+87,"Teoh YX, Lai KW, Usman J, Goh SL, Mohafez H, Hasikin K, Qian P, Jiang Y, Zhang Y, Dhanalakshmi S.",Discovering Knee Osteoarthritis Imaging Features for Diagnosis and Prognosis: Review of Manual Imaging Grading and Machine Learning Approaches,J Healthc Eng,,,10.1155/2022/4138666,,2022
+88,,Magnetic resonance image markers to improve patient-specific prediction of IMRT-induced rectal toxicity in prostate cancer patients,Med Phys,,,10.1002/mp.13166,,2019
+89,"Chen H, Ban D, Qi XS, Pan X, Qiang Y, Yang Q.",A hybrid feature selection-based brain tumor detection and segmentation in multiparametric magnetic resonance imaging,Med Phys,,,10.1002/mp.15035,,2021
