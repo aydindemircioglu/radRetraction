@@ -71,17 +71,31 @@ colmap = sns.light_palette("#a73737", n_colors=len(cty_counts)+3)[::-1]
 ax2.pie(cty_counts, labels=cty_counts.index, autopct='%1.0f%%', colors=colmap)
 ax2.set_title('Publications per Country', fontweight='bold', fontsize=14)
 
+reason_order = [
+    'Standard text',
+    'Major overlap',
+    'Systematic manipulation',
+    'Author retraction',
+    'Inadequate peer review',
+    'Duplicate article',
+]
+
 reason_colors = {
-    'Major overlap': '#ff9999',
+    'Major overlap': '#ee6666',
+    'Author retraction': '#cceeff',
     'Standard text': '#cccccc',
-    'Systematic manipulation': '#cc5555',
-    'Duplicate article': '#5555cc',
-    'Inadequate peer review': '#99ccff'
+    'Systematic manipulation': '#ff9999',
+    'Duplicate article': '#6666dd',
+    'Inadequate peer review': '#99ccff',
 }
-reason_counts = df_rad['Reason'].value_counts()
-colors = [reason_colors.get(reason, '#ffffff') for reason in reason_counts.index]
-ax3.pie(reason_counts, labels=reason_counts.index, autopct='%1.0f%%', colors=colors, startangle=0)
+
+reason_counts = df_rad['Reason'].value_counts().reindex(reason_order).dropna()
+colors = [reason_colors[r] for r in reason_counts.index]
+
+ax3.pie(reason_counts, labels=reason_counts.index, autopct='%1.0f%%',
+        colors=colors, startangle=0)
 ax3.set_title('Reasons for Retraction', fontweight='bold', fontsize=14)
+
 
 df_rad['Retraction_Year'] = df_rad['Retraction date'].dt.year
 all_years = list(range(df_rad['Retraction_Year'].min(), 2026))
@@ -98,6 +112,7 @@ citations = [
     df_rad['Citations prior retraction'].sum(),
     df_rad['Citation after retraction'].sum()
 ]
+print ("Citation median:",    df_rad['Citations'].median())
 labels = ['Total', 'Prior', 'After']
 colors = ['#999999', '#44aa44', '#aa4444']
 ax5.bar(labels, citations, color=colors)
@@ -111,7 +126,7 @@ ax6.set_xlabel('Months')
 ax6.set_ylabel('Count')
 ax6.yaxis.set_major_locator(plt.MaxNLocator(integer=True))
 
-for ax, label in zip([ax1, ax2, ax3, ax4, ax5, ax6], ['A', 'B', 'C', 'D', 'E', 'F']):
+for ax, label in zip([ax1, ax2, ax3, ax4, ax5, ax6], ['a', 'b', 'c', 'd', 'e', 'f']):
     ax.text(-0.15, -0.05, label, transform=ax.transAxes,
             fontsize=16, fontweight='bold', ha='left', va='top')
 

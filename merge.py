@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 import webbrowser
 
@@ -15,6 +16,49 @@ df_filtered = df_filtered.drop(["OriginalPaperDate"], axis = 1).copy()
 df_filtered = df_filtered.rename(columns={"OriginalPaperDOI": "DOI", "Author": "Authors"})
 df_RWD = df_filtered.copy()
 print (f"Have {len(df_RWD)} publications from RWD.")
+
+
+# openalex
+df_OpenAlex = pd.read_csv("./data/OpenAlex/table_raw.csv")
+print (f"Have {len(df_OpenAlex)} publications from OpenAlex.")
+
+
+# crossref
+with open(f'./data/Crossref/filtered.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+items = data.get('message', {}).get('items', [])
+
+df_Crossref = []
+for item in items:
+    try:
+        title = ' '.join(item.get('title', [])).split(":")[1][1:]
+    except:
+        title = item["title"]
+
+    try:
+        doi = item.get('reference', [])[0]["DOI"],
+    except:
+        doi = item["alternative-id"][0]
+
+    row = {
+        'Authors': '', # not there?...
+        'Title': title,
+        'Journal': item.get('container-title', [''])[0].replace("&amp", "&"),
+        'Publisher': item.get('publisher', ''),
+        'DOI': doi,
+        'Date': item["published"]["date-parts"][0][0]
+    }
+    df_Crossref.append(row)
+df_Crossref = pd.DataFrame(df_Crossref)
+
+print (f"Have {len(df_Crossref)} publications from Crossref.")
+
+# crossref with filtered option just yielded the same, so ignoring it.
+# df_Crossref = pd.concat(df_Crossref).reset_index(drop = True)
+# df_Crossref["Title"] = df_Crossref["Title"].astype(str)
+# df_Crossref.sort_values(["Title"])["Title"]
+
+
 
 # pubmed
 df = pd.read_csv("./data/PubMed/csv-radiomics-set.csv")
@@ -80,7 +124,7 @@ print (f"Have {len(df_scopus)} publications from scopus.")
 
 
 # merge and save
-df_final = pd.concat([df_WoS, df_scopus, df_PubMed, df_RWD], ignore_index=True)
+df_final = pd.concat([df_WoS, df_scopus, df_PubMed, df_RWD, df_Crossref, df_OpenAlex], ignore_index=True)
 print (f"Have overall {len(df_final)} publications.")
 has_doi = df_final['DOI'].str.strip() != ''
 df_with_doi = df_final[has_doi]
@@ -93,7 +137,7 @@ df_merged_clean.to_csv("./results/table_raw.csv")
 print (f"Have  {len(df_merged_clean)} publications after removing duplicates.")
 
 
-# we used this to automatically open all papers, caution, it will open 100 tabs!!!
+# we used this to automatically open all papers, caution, it will 20 tabs.
 if 1 == 0:
     firefox = webbrowser.get('/Applications/Firefox.app/Contents/MacOS/firefox')
     for i, doi in enumerate(df_merged_clean['DOI']):

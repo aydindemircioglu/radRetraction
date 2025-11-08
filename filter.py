@@ -34,11 +34,14 @@ reason_normalizing_dict = {
     "major overlap with a previously published article": "Major overlap",
     "peer review process underlying the articles was inadequate. We have no evidence to suggest authors were involved": "Inadequate peer review",
     "including but not limited to compromised editorial handling and peer review process, inappropriate or irrelevant references or not being in scope of the journal or guest-edited issue": "Compromised editorial/peer review",
+    "This article has been retracted at the request of the authors. The article uses clinical data that the authors realized post acceptance could not be used for publication": "Author retraction",
+    "This article has been withdrawn at the request of the author(s) and/or editor":  "Author retraction"
 }
 
 
-df = pd.read_excel("./results/table_raw.xlsx", header = 1)
-df = df.iloc[0:92].copy()
+df = pd.read_excel("./results/table_raw.xlsx", header = 0).reset_index(drop = True)
+df = df.iloc[0:95].copy()
+
 df['Journal'] = df['Journal'].map(journal_normalizing_dict).fillna(df['Journal'])
 df["Reason_Code"] = df["Unnamed: 0"]
 
@@ -55,7 +58,7 @@ df_rad = df_rad.sort_values(["Date"])
 df_rad.to_excel("./results/table_relevant.xlsx")
 
 # open publications for further investigation
-if 1 == 1:
+if 1 == 0:
     firefox = webbrowser.get('/Applications/Firefox.app/Contents/MacOS/firefox')
     for i, doi in enumerate(df_rad['DOI']):
         doi = str(doi).strip()
